@@ -1,12 +1,21 @@
 import React from 'react'
 
-import { AboutMe, Contact, Education, Footer, Header, MajorProjects, Volunteering, WorkExperience } from './containers';
-import { CTA, Brand, Navbar } from './components'
+import { AboutMe, Contact, Education, MajorProjects, Volunteering, WorkExperience } from './containers';
+import { Navbar } from './components'
+import './App.css';
 
 const App = () => {
   return (
-    <div>
-        <h1>Portfolio</h1>
+    <div className="App">
+      <div className='header__bg'>
+        <Navbar />
+      </div>
+      <AboutMe />
+      <Education />
+      <WorkExperience />
+      <MajorProjects />
+      <Volunteering />
+      <Contact />
     </div>
   )
 }

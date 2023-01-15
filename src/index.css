@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik|Maven+Pro');
+
+:root {
+    --font-family-title:'Maven+Pro', sans-serif;
+    --font-family-text: 'Rubik', sans-serif;
+
+    --color-bg: #030303;
+    --color-fg: #161617;
+    --color-primary: #FF4500;
+    --color-text: #D7DADC;
+    --white: #FFFFFF;
+    
+}
